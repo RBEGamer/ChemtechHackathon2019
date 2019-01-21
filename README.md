@@ -17,22 +17,28 @@
 
 
 
-# TECH-STACK
+# USED SOFTWARE
 
 * python2.7, python3.6
 * numpy
 * skilearn
 * numplot
 * paho-mqtt
-
 * NodeJS
 * MQTT Broker
-
-
-
 * Amazon Web Services (EC2 instance)
 * Alexa Skill Kit
 * Amazon Lambda Functions (Python)
+
+# USED HARDWARE
+
+* RPI 3 (sd, powersupply, ethernet)
+* Arduino Nano
+* ESP32 DevKit V1
+* WS2813 12 LED Ring
+* 3.5mm Audio Cable
+* Alexa Echo Dot V2
+
 
 
 # FURTHER PROBLEM DESCRIPTION
