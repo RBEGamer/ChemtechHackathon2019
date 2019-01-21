@@ -96,7 +96,11 @@ Payload:{'error':[2,3,4],'location':'right','time':'14:39'}
 
 * flash the `./src/esp32_mqtt_client_for_light` to the ESP32 DevKit by using the Arduino IDE
 * connect  the `ESP32 gpio 2`to the `Arduino Nano Pin D3`
-
+* connect  the `ESP32 gnd`to the `Arduino Nano gnd`
+* connect  the `ESP32 5V`to the `Arduino Nano 5V`
+* connect  the `Arduino Nano gnd`to the `WS2813 gnd`
+* connect  the `Arduino Nano 5v`to the `WS2813 5v`
+* connect  the `Arduino Nano D2`to the `WS2813 din`
 
 
 
