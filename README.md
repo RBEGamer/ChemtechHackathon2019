@@ -48,6 +48,9 @@
 # EXPLANATION CLASSIFIER
 
 
+
+
+
 # EXPLANATION BACKEND
 
 
@@ -74,18 +77,16 @@ The topics used in this Project are:
 
 
 The result from the classifier contains the type of error, time and the location on the machine:
-`Topic:chemtechhack1234
-Payload:{'error':[2,3,4],'location':'right','time':'14:39'}
-`
+`Topic:chemtechhack1234 Payload:{'error':[2,3,4],'location':'right','time':'14:39'}`
 
 
 
 # RUN THE CLASSIFIER
 
 
-* install python
-* ...
-* ...
+* `install python`
+* `pip instal paho-mqtt`
+* `pip install -U scikit-learn`
 
 
 
@@ -93,8 +94,9 @@ Payload:{'error':[2,3,4],'location':'right','time':'14:39'}
 
 # BUILD THE HARDWARE
 
-
+## BUILDING HTE NOTIICATION LIGHT
 * flash the `./src/esp32_mqtt_client_for_light` to the ESP32 DevKit by using the Arduino IDE
+* flash the `./src/notification_light` to the Arduino Nano by using the Arduino IDE
 * connect  the `ESP32 gpio 2`to the `Arduino Nano Pin D3`
 * connect  the `ESP32 gnd`to the `Arduino Nano gnd`
 * connect  the `ESP32 5V`to the `Arduino Nano 5V`
