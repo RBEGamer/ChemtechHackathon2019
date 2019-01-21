@@ -90,6 +90,16 @@ Payload:{'error':[2,3,4],'location':'right','time':'14:39'}
 
 
 
+
+# BUILD THE HARDWARE
+
+
+* flash the `./src/esp32_mqtt_client_for_light` to the ESP32 DevKit by using the Arduino IDE
+* connect  the `ESP32 gpio 2`to the `Arduino Nano Pin D3`
+
+
+
+
 # IMAGES
 
 ## RESULT
