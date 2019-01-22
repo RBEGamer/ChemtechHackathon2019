@@ -27,6 +27,7 @@ Our mind-blowing `extra cute crocodiles` - team
 * numplot
 * paho-mqtt
 * NodeJS
+* socket.io
 * MQTT Broker
 * Amazon Web Services (EC2 instance)
 * Alexa Skill Kit
@@ -41,10 +42,11 @@ Our mind-blowing `extra cute crocodiles` - team
 * 3.5mm Audio Cable
 * Alexa Echo Dot V2
 
-
+# SLIDES ? 
+https://slides.com/beinggracie/deck-6#/
 
 # FURTHER PROBLEM DESCRIPTION
-First you can look at our pitch presentation [https://slides.com/beinggracie/deck-6#/]
+
 
 
 # EXPLANATION CLASSIFIER
