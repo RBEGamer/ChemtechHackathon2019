@@ -1,0 +1,25 @@
+{
+  "name": "chemtech_data_visualizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcel Ochsendorf",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "json2csv": "^4.3.3",
+    "mqtt": "^2.18.8",
+    "nodemailer": "^5.1.1",
+    "randomstring": "^1.1.5",
+    "sessionstore": "^1.3.3",
+    "socket.io": "^2.2.0",
+    "uuid": "^3.3.2"
+  }
+}

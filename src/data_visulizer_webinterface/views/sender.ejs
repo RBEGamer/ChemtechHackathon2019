@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Smart Condition Monitoring - SIMULATOR</title>
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+	<link rel="stylesheet" href="assets/css/ready.css">
+  <link rel="stylesheet" href="assets/css/demo.css">
+  
+
+
+  <style>
+body {background: url("/img/bg_new.png") no-repeat center center;}
+
+</style>
+
+  
+</head>
+<body>
+	<div class="wrapper">
+		<div class="main-header">
+			<div class="logo-header">
+				<a href="index.html" class="logo">
+					SMC SIMULATOR
+				</a>
+				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<button class="topbar-toggler more"><i class="la la-ellipsis-v"></i></button>
+			</div>
+			<nav class="navbar navbar-header navbar-expand-lg">
+				<div class="container-fluid">
+					
+				
+					<ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
+					
+						<li class="nav-item dropdown hidden-caret">
+							<a class="nav-link dropdown-toggle" href="#" onclick="reset()" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="la la-bell"></i>
+                <div id="notify">
+                <span class="notification"></span>
+                </div>
+							</a>
+						
+						</li>
+					
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<div class="sidebar">
+				<div class="scrollbar-inner sidebar-wrapper">
+					
+					<ul class="nav">
+						<li class="nav-item">
+							<a href="/demo">
+								<i class="la la-dashboard"></i>
+								<p>Xervon Test Machine</p>
+								<span class="badge badge-count" id="mc_badge"></span>
+							</a>
+						</li>
+						
+					
+					
+					
+					
+					
+					</ul>
+				</div>
+			</div>
+			<div class="main-panel">
+				<div class="content">
+					<div class="container-fluid">
+						<h4 class="page-title">Xervon Test Machine</h4>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="card">
+									<div class="card-header">
+										<h4 class="card-title">Recent Errors</h4>
+										<p class="card-category">Error in the last 10 measurements</p>
+									</div>
+									<div class="card-body">
+                    
+                  <div id="container" style="width: 75%;">
+                  <canvas id="canvas_err"></canvas>
+    
+
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="card">
+									<div class="card-header">
+										<h4 class="card-title">Error Location</h4>
+										<p class="card-category">Error history 24h</p>
+									</div>
+                  <div class="card-body">
+                   <div id="container" style="width: 75%;">
+                <center>
+                  <img id="placeimg" src="/img/normal.png">
+
+
+									</div>
+											
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="card">
+									<div class="card-header">
+										<h4 class="card-title">Error Information</h4>
+								<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">FILE</th>
+      <th scope="col">DESCRIPTION</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><img src="/img/np_play_1939987_77BC87.png" width=64 id="imghammer" onclick="sendhammer()"></th>
+      <td>Simulates a short shock to the shaft</td>
+     
+    </tr>
+    <tr>
+      <th scope="row"><img src="/img/np_play_1939987_77BC87.png" width=64 id="imgunwucht" onclick="sendunwucht()"></th>
+
+      <td id="time">Simulates a unbalance at the right bearing</td>
+    </tr>
+
+  </tbody>
+</table>
+</div>
+								
+							
+							
+						
+							
+						
+							
+	
+	<!-- Modal -->
+	<div class="modal fade" id="modalUpdate" tabindex="-1" role="dialog" aria-labelledby="modalUpdatePro" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header bg-primary">
+					<h6 class="modal-title"><i class="la la-frown-o"></i> Under Development</h6>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body text-center">									
+					<p>Currently the pro version of the <b>Ready Dashboard</b> Bootstrap is in progress development</p>
+					<p>
+					<b>We'll let you know when it's done</b></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="assets/js/core/jquery.3.2.1.min.js"></script>
+<script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="assets/js/core/popper.min.js"></script>
+<script src="assets/js/core/bootstrap.min.js"></script>
+<script src="assets/js/plugin/chartist/chartist.min.js"></script>
+<script src="assets/js/plugin/chartist/plugin/chartist-plugin-tooltip.min.js"></script>
+<script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+<script src="assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+<script src="assets/js/plugin/jquery-mapael/jquery.mapael.min.js"></script>
+<script src="assets/js/plugin/jquery-mapael/maps/world_countries.min.js"></script>
+<script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+<script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+<script src="assets/js/ready.min.js"></script>
+<script src="/bower_components/chart.js/dist/Chart.bundle.min.js"></script>
+<script src="/socket.io-client/dist/socket.io.js"></script>
+
+
+
+
+<script>
+
+
+
+var socket = io();
+   
+
+  
+
+function sendhammer(){
+  //alert("SIMULATION STARTED PLEASE WAIT");
+socket.emit('sendhammer',{});
+
+$("#imghammer").attr('src', '/img/np_stop_552216_D83724.png');
+
+
+setTimeout(() => {
+window.location.reload();
+}, 2000);
+}
+
+function sendunwucht(){
+  //alert("SIMULATION STARTED PLEASE WAIT");
+socket.emit('sendunwucht',{});
+
+$("#imgunwucht").attr('src', '/img/np_stop_552216_D83724.png');
+
+
+setTimeout(() => {
+    window.location.reload();
+}, 2000);
+
+
+}
+
+$( function() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	} );
+</script>
+</html>

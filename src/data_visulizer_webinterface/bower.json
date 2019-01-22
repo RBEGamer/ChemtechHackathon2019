@@ -1,0 +1,17 @@
+{
+  "name": "chemtech_data_visualizer",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Marcel Ochsendorf"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

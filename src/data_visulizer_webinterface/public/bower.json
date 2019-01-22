@@ -1,0 +1,24 @@
+{
+  "name": "public",
+  "authors": [
+    "Marcel Ochsendorf <marcel.ochsendorf@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "watson-speech": "^0.34.1",
+    "socket.io": "^2.0.4",
+    "bootstrap": "^4.0.0",
+    "chart.js": "^2.7.3",
+    "web-mqtt-client": "^1.3.1"
+  }
+}
