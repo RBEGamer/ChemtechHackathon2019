@@ -162,6 +162,14 @@ The result from the classifier contains the type of error, time and the location
 What we need to build a scalable product
 
 ## Hardware for realtime measurements
+Using a fast dac to read out the vibration sensors:
+https://hackaday.io/project/163069-using-red-pitaya-for-long-time-data-logging
+
+https://www.ebay.de/itm/SX1276-868MHz-915MHz-ESP32-LoRa-Bluetooth-WIFI-Kit-IOT-Entwicklung-Tafel-AIP/142639274892?hash=item2135f69b8c:g:BUcAAOSwMQBaHDgZ:rk:1:pf:1
+
+and for the communication some lora stuff to send only the error_messages:
+https://www.antratek.de/lora-iot-kit?gclid=Cj0KCQiAm5viBRD4ARIsADGUT2554OXE1H2TQW_V9g6Gik1cN9DIoEMsH83lfYLLp12YNLRFspnj6AgaAveUEALw_wcB
+
 
 ## Data, more Data
 
