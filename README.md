@@ -64,6 +64,15 @@ The Webinterface is running on an AWS EC2 Instance `t2 medium`
 * in the `data_visulizer` run `npm install` to install all packets
 * to run the server run `node server.js` the server is listening on port `3014`
 
+
+You can also run all scripts using the container service `docker`, you have to clone the folloing images:
+* `docker pull node` - nodejs
+* `docker pull eclipse-mosquitto` - mqtt broker
+* `docker pull python` - python environment
+
+You have to modify the `dockerfile` to install the python packages
+
+
 # MQTT TOPICS
 All components are communicates via the IOT Protocol MQTT, its based on a publish/subscriber modell.
 The topics used in this Project are:
@@ -94,7 +103,7 @@ The result from the classifier contains the type of error, time and the location
 
 # BUILD THE HARDWARE
 
-## BUILDING HTE NOTIICATION LIGHT
+## BUILDING THE NOTIICATION LIGHT
 * flash the `./src/esp32_mqtt_client_for_light` to the ESP32 DevKit by using the Arduino IDE
 * flash the `./src/notification_light` to the Arduino Nano by using the Arduino IDE
 * connect  the `ESP32 gpio 2`to the `Arduino Nano Pin D3`
@@ -104,7 +113,7 @@ The result from the classifier contains the type of error, time and the location
 * connect  the `Arduino Nano 5v`to the `WS2813 5v`
 * connect  the `Arduino Nano D2`to the `WS2813 din`
 
-
+## BUILD THE SELF SPEAKING ALEXA
 
 # IMAGES
 
