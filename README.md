@@ -21,14 +21,14 @@ Our mind-blowing `extra cute crocodiles` - team
 
 # USED SOFTWARE
 
-## AI
+## AI Service
 * python2.7, python3.6
 * numpy
 * skilearn
 * numplot
 * paho-mqtt
 
-## WebUI
+## WebUI Service
 * NodeJS
 * socket.io
 * ejs templating engine
