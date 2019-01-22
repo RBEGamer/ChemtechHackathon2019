@@ -170,6 +170,10 @@ https://www.ebay.de/itm/SX1276-868MHz-915MHz-ESP32-LoRa-Bluetooth-WIFI-Kit-IOT-E
 and for the communication some lora stuff to send only the error_messages:
 https://www.antratek.de/lora-iot-kit?gclid=Cj0KCQiAm5viBRD4ARIsADGUT2554OXE1H2TQW_V9g6Gik1cN9DIoEMsH83lfYLLp12YNLRFspnj6AgaAveUEALw_wcB
 
+maybe something to accelerate the AI
+https://www.movidius.com
+
+but i think its not nessessary if the measurement interval is only every minute, and samples 5seconds 
 
 ## Data, more Data
 
