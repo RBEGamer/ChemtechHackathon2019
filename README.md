@@ -43,15 +43,30 @@ Our mind-blowing `extra cute crocodiles` - team
 
 # USED HARDWARE
 
+## Self-speaking alexa for voice notification
 * RPI 3 (sd, powersupply, ethernet)
+* Alexa Echo Dot V2
+* 3.5mm Audio Cable
+
+## Notification Light
 * Arduino Nano
 * ESP32 DevKit V1
 * WS2813 12 LED Ring
-* 3.5mm Audio Cable
-* Alexa Echo Dot V2
+* 10k resistor
+
+## TOOLS
+* soldering iron ts100
+* hotglue
+* cables, 2,54mm header
+* 20x10cm@9mm wood
+* solder bp-free
+
+
 
 # SLIDES ? 
 https://slides.com/beinggracie/deck-6#/
+
+
 
 # FURTHER PROBLEM DESCRIPTION
 
