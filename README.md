@@ -192,5 +192,17 @@ but i think its not nessessary if the measurement interval is only every minute,
 
 ## RESULT
 ## WEBINTERFACE
+
+### LANDING PAGES
+![Gopher image](/documentation/landing_page.png)
+
+### START A SIMULATION
+![Gopher image](/documentation/simulation_dashboard.png)
+
+### ERROR REPORT PAGE
+![Gopher image](/documentation/error_dashboard.png)
+
+
+
 ## ...
 
