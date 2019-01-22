@@ -8,6 +8,8 @@
 
 
 # THE TEAM
+Our mind-blowing `extra cute crocodiles` - team
+
 *
 *
 *
@@ -47,6 +49,10 @@
 
 # EXPLANATION CLASSIFIER
 
+## SVM - SupportVectorMachine
+
+
+## RNN - RecurrentNeuralNetwork
 
 
 
