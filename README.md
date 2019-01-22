@@ -77,12 +77,12 @@ You have to modify the `dockerfile` to install the python packages
 All components are communicates via the IOT Protocol MQTT, its based on a publish/subscriber modell.
 The topics used in this Project are:
 
-* `chemtechhack1234alexa` - Triggers the ALEXA Skill
+* `chemtechhack1234alexa` - Triggers the ALEXA Skill `[payload can be empty]`
 * `chemtechhack1234light` - Triggers the lights the payload is `1` for a red light and. `0` for the blue light
-* `chemtechhack1234hammer` - Starts the hammer simulation
-* `chemtechhack1234unwucht` - Starts the unwicht simulation
+* `chemtechhack1234hammer` - Starts the hammer simulation `[payload can be empty]`
+* `chemtechhack1234unwucht` - Starts the unwicht simulation `[payload can be empty]`
 * `chemtechhack1234` - Reports the result by the classifier
-* `chemteckhack1234clear` - Clears the error
+* `chemteckhack1234clear` - Clears the error, if the user mark error as unread `[payload can be empty]`
 
 
 The result from the classifier contains the type of error, time and the location on the machine:
