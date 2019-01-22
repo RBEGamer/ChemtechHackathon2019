@@ -62,7 +62,7 @@ First you can look at our pitch presentation [https://slides.com/beinggracie/dec
 
 
 # RUN THE WEBINTERFACE
-The Webinterface is running on an AWS EC2 Instance `t2 medium`
+The Webinterface is running on an AWS EC2 Instance `t2 nano`
 
 * install NodeJS `sudo apt-get install nodejs npm -y`
 * install MQTT `sudo apt-get install mosquitto mosquitto-clients`
