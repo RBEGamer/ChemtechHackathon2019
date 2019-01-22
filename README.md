@@ -10,10 +10,10 @@
 # THE TEAM
 Our mind-blowing `extra cute crocodiles` - team
 
-*
-*
-*
-*
+* Marcel
+* Weiling
+* Vasil
+* Paul
 
 
 
@@ -40,6 +40,8 @@ Our mind-blowing `extra cute crocodiles` - team
 ## ALEXA SKILL
 * Alexa Skill Kit
 * Amazon Lambda Functions (Python)
+
+
 
 # USED HARDWARE
 
@@ -84,6 +86,7 @@ https://slides.com/beinggracie/deck-6#/
 
 # EXPLANATION BACKEND
 
+## COMMUNICATION BETWEEN [SOFTWARE-]COMPONENTS
 
 
 # RUN THE WEBINTERFACE
