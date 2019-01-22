@@ -49,6 +49,7 @@ Our mind-blowing `extra cute crocodiles` - team
 * RPI 3 (sd, powersupply, ethernet)
 * Alexa Echo Dot V2
 * 3.5mm Audio Cable
+* optocoupler PF817
 
 ## Notification Light
 * Arduino Nano
