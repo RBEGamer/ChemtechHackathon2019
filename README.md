@@ -1,4 +1,4 @@
-# ChemTechHackathon 2019 - XERON CHALLANGE
+# ChemTechHackathon 2019 - A XERVON CHALLANGE
 
 
 
