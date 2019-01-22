@@ -144,7 +144,13 @@ The result from the classifier contains the type of error, time and the location
 * connect  the `Arduino Nano D2`to the `WS2813 din`
 
 ## BUILD THE SELF SPEAKING ALEXA
-
+* download the RPI Image `Raspbian Stretch Lite` and write it to an `sd card` using `etcher - https://www.balena.io/etcher/`
+* create an file called `ssh` in the `/boot partionion` on the sd card, to enable ssh
+* connect the rpi to power and ethernet
+* login to ssh with `pi@<PI_IP>` and the password `raspberry`
+* type `sudo raspi-config` and select `advanced option->audio->force 3.5mm output`
+* cut the 3.5mm audio-cable in half and strip of the isolation
+*
 
 
 
@@ -160,6 +166,10 @@ What we need to build a scalable product
 ## Data, more Data
 
 ## Software
+
+
+
+
 
 
 
