@@ -89,24 +89,7 @@ https://slides.com/beinggracie/deck-6#/
 ## COMMUNICATION BETWEEN [SOFTWARE-]COMPONENTS
 
 
-# RUN THE WEBINTERFACE
-The Webinterface is running on an AWS EC2 Instance `t2 nano`
-
-* install NodeJS `sudo apt-get install nodejs npm -y`
-* install MQTT `sudo apt-get install mosquitto mosquitto-clients`
-* copy the `./src/data_visulizer/` folder to the EC2 using an  SFTP client `eg. Cyberduck,MobaXTerm`
-* in the `data_visulizer` run `npm install` to install all packets
-* to run the server run `node server.js` the server is listening on port `3014`
-
-
-You can also run all scripts using the container service `docker`, you have to clone the folloing images:
-* `docker pull node` - nodejs `[expose port 3014]`
-* `docker pull eclipse-mosquitto` - mqtt broker `[expose port 1883]`
-* `docker pull python` - python environment
-You have to modify the `dockerfile` to install the python packages
-
-
-# MQTT TOPICS
+## MQTT TOPICS
 All components are communicates via the IOT Protocol MQTT, its based on a publish/subscriber modell.
 The topics used in this Project are:
 
@@ -123,12 +106,37 @@ The result from the classifier contains the type of error, time and the location
 
 
 
-# RUN THE CLASSIFIER
+
+
+
+
+# SOFTWARE SETUP
+
+## RUN THE WEBINTERFACE
+The Webinterface is running on an AWS EC2 Instance `t2 nano`
+
+* install NodeJS `sudo apt-get install nodejs npm -y`
+* install MQTT `sudo apt-get install mosquitto mosquitto-clients`
+* copy the `./src/data_visulizer/` folder to the EC2 using an  SFTP client `eg. Cyberduck,MobaXTerm`
+* in the `data_visulizer` run `npm install` to install all packets
+* to run the server run `node server.js` the server is listening on port `3014`
+
+
+You can also run all scripts using the container service `docker`, you have to clone the folloing images:
+* `docker pull node` - nodejs `[expose port 3014]`
+* `docker pull eclipse-mosquitto` - mqtt broker `[expose port 1883]`
+* `docker pull python` - python environment
+You have to modify the `dockerfile` to install the python packages
+
+
+
+## RUN THE CLASSIFIER
 
 
 * `install python`
 * `pip instal paho-mqtt`
 * `pip install -U scikit-learn`
+
 
 
 
