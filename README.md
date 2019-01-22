@@ -44,7 +44,7 @@ Our mind-blowing `extra cute crocodiles` - team
 
 
 # FURTHER PROBLEM DESCRIPTION
-
+First you can look at our pitch presentation [https://slides.com/beinggracie/deck-6#/]
 
 
 # EXPLANATION CLASSIFIER
