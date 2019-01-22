@@ -21,15 +21,23 @@ Our mind-blowing `extra cute crocodiles` - team
 
 # USED SOFTWARE
 
+## AI
 * python2.7, python3.6
 * numpy
 * skilearn
 * numplot
 * paho-mqtt
+
+## WebUI
 * NodeJS
 * socket.io
+* ejs templating engine
+* couchdb
+## HOSTING
 * MQTT Broker
 * Amazon Web Services (EC2 instance)
+
+## ALEXA SKILL
 * Alexa Skill Kit
 * Amazon Lambda Functions (Python)
 
