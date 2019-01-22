@@ -120,6 +120,24 @@ The result from the classifier contains the type of error, time and the location
 
 ## BUILD THE SELF SPEAKING ALEXA
 
+
+
+
+
+
+
+
+# BUILD A REALWORLD-THING ? 
+What we need to build a scalable product
+
+## Hardware for realtime measurements
+
+## Data, more Data
+
+## Software
+
+
+
 # IMAGES
 
 ## RESULT
