@@ -10,11 +10,10 @@
 # THE TEAM
 Our mind-blowing `extra cute crocodiles` - team
 
-* Marcel
-* Weiling
+* [Marcel](https://github.com/RBEGamer)
+* [Weiling Xi](https://github.com/notagenius)
 * Vasil
 * Paul
-
 
 
 
@@ -24,7 +23,9 @@ Our mind-blowing `extra cute crocodiles` - team
 ## AI Service
 * python2.7, python3.6
 * numpy
-* skilearn
+* sklearn
+* pytorch
+* csv
 * numplot
 * paho-mqtt
 
@@ -33,6 +34,7 @@ Our mind-blowing `extra cute crocodiles` - team
 * socket.io
 * ejs templating engine
 * couchdb
+
 ## HOSTING
 * MQTT Broker
 * Amazon Web Services (EC2 instance)
@@ -40,8 +42,6 @@ Our mind-blowing `extra cute crocodiles` - team
 ## ALEXA SKILL
 * Alexa Skill Kit
 * Amazon Lambda Functions (Python)
-
-
 
 # USED HARDWARE
 
@@ -65,10 +65,8 @@ Our mind-blowing `extra cute crocodiles` - team
 * solder bp-free
 
 
-
 # SLIDES ? 
 https://slides.com/beinggracie/deck-6#/
-
 
 
 # FURTHER PROBLEM DESCRIPTION
@@ -81,8 +79,6 @@ https://slides.com/beinggracie/deck-6#/
 
 
 ## RNN - RecurrentNeuralNetwork
-
-
 
 
 # EXPLANATION BACKEND
