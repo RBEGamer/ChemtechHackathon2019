@@ -152,7 +152,7 @@ You have to modify the `dockerfile` to install the python packages
 * connect  the `Arduino Nano D2`to the `WS2813 din`
 
 ## BUILD THE SELF SPEAKING ALEXA
-* download the RPI Image `Raspbian Stretch Lite` and write it to an `sd card` using `etcher - https://www.balena.io/etcher/`
+* download the RPI Image `Raspbian Stretch Lite` and write it to an `sd card` using [etcher](https://www.balena.io/etcher/)
 * create an file called `ssh` in the `/boot partionion` on the sd card, to enable ssh
 * connect the rpi to power and ethernet
 * login to ssh with `pi@<PI_IP>` and the password `raspberry`
@@ -171,11 +171,11 @@ What we need to build a scalable product
 
 ## Hardware for realtime measurements
 Using a fast dac to read out the vibration sensors:
-https://hackaday.io/project/163069-using-red-pitaya-for-long-time-data-logging
+[using red pitaya for sensor collection](https://hackaday.io/project/163069-using-red-pitaya-for-long-time-data-logging)
 using the `pyrpl` python package its possible to collect data `up to 50msamples/s`
 
 maybe something to accelerate the AI
-https://www.movidius.com
+[movidius compute stick](https://www.movidius.com)
 but i think its not nessessary if the measurement interval is only every minute, and samples 5seconds 
 
 ## Data, more Data
