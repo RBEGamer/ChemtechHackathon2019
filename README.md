@@ -172,6 +172,7 @@ What we need to build a scalable product
 ## Hardware for realtime measurements
 Using a fast dac to read out the vibration sensors:
 https://hackaday.io/project/163069-using-red-pitaya-for-long-time-data-logging
+using the `pyrpl` python package its possible to collect data `up to 50msamples/s`
 
 maybe something to accelerate the AI
 https://www.movidius.com
