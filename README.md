@@ -170,9 +170,9 @@ You have to modify the `dockerfile` to install the python packages
 What we need to build a scalable product
 
 ## Hardware for realtime measurements
-Using a fast dac to read out the vibration sensors:
+Using a fast dac to read out the [vibration sensors](https://german.alibaba.com/product-detail/cz9300-oil-water-piezo-sensor-with-armoured-cable-60685810280.html)
 [using red pitaya for sensor collection](https://hackaday.io/project/163069-using-red-pitaya-for-long-time-data-logging)
-using the `pyrpl` python package its possible to collect data `up to 50msamples/s`
+using the [`pyrpl`](https://pyrpl.readthedocs.io/en/latest/) python package its possible to collect data `up to 50msamples/s`
 
 maybe something to accelerate the AI
 [movidius compute stick](https://www.movidius.com)
