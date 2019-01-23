@@ -1,8 +1,6 @@
 # ChemTechHackathon 2019 - A XERVON CHALLANGE
 
-![Gopher image](/documentation/logo_v1.png)
-
-<img src="/documentation/logo_v1.png" data-canonical-src="/documentation/logo_v1.png" width="200" height="200" />
+<img src="/documentation/logo_v1.png" data-canonical-src="/documentation/logo_v1.png" width="250" height="250" />
 
 
 # ABOUT THE CHALLANGE
