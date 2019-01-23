@@ -66,7 +66,7 @@ Our mind-blowing `extra cute crocodiles` - team
 
 
 # SLIDES ? 
-https://slides.com/beinggracie/deck-6#/
+[OH YES! HERE](https://slides.com/beinggracie/deck-6#/)
 
 
 # FURTHER PROBLEM DESCRIPTION
