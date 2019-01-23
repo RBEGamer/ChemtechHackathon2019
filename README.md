@@ -52,13 +52,13 @@ Our mind-blowing `extra cute crocodiles` - team
 * optocoupler PF817
 
 ## Notification Light
-* Arduino Nano
-* ESP32 DevKit V1
-* WS2813 12 LED Ring
+* [Arduino Nano](https://www.conrad.de/de/arduino-board-nano-atmega328-1172623.html?WT.mc_id=google_pla&WT.srch=1&ef_id=Cj0KCQiAvqDiBRDAARIsADWh5TdkGpHTU44qwLFKKNTgm5uaTho83g3jRuzOcssIlJPiwOhgq3lqE5UaAtITEALw_wcB:G:s&gclid=Cj0KCQiAvqDiBRDAARIsADWh5TdkGpHTU44qwLFKKNTgm5uaTho83g3jRuzOcssIlJPiwOhgq3lqE5UaAtITEALw_wcB&hk=SEM&insert_kz=VQ&s_kwcid=AL!222!3!293649793181!!!g!!)
+* [ESP32 DevKit V1](https://www.bastelgarage.ch/wifi-lora-32-v2-sx1276-868mhz-mit-oled)
+* [WS2813 12 LED Ring](https://www.seeedstudio.com/WS2813-Digital-RGB-LED-Ring-p-2871.html)
 * 10k resistor
 
 ## TOOLS
-* soldering iron ts100
+* [soldering iron ts100](https://www.banggood.com/de/MINI-TS80-Digital-OLED-USB-Type-C-Programable-Soldering-Iron-Station-Solder-Tool-Built-in-STM32-Chip-p-1330060.html?gmcCountry=DE&currency=EUR&cur_warehouse=CN&createTmp=1&ID=554956&utm_source=googleshopping&utm_medium=cpc_union&utm_content=2zou&utm_campaign=ssc-de-de-all&gclid=Cj0KCQiAvqDiBRDAARIsADWh5TfJrIg0-jV-CLCHcV-Yc0rjw4NkFCJe-BkxnWlLEZpVYmOtDFpJ4CIaAuWqEALw_wcB)
 * hotglue
 * cables, 2,54mm header
 * 20x10cm@9mm wood
