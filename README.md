@@ -120,9 +120,9 @@ The Webinterface is running on an AWS EC2 Instance `t2 nano`
 
 
 You can also run all scripts using the container service `docker`, you have to clone the folloing images:
-* `docker pull node` - nodejs `[expose port 3014]`
-* `docker pull eclipse-mosquitto` - mqtt broker `[expose port 1883]`
-* `docker pull python` - python environment
+* [`docker pull node`](https://hub.docker.com/_/node/) - nodejs `[expose port 3014]`
+* [`docker pull eclipse-mosquitto`](https://hub.docker.com/_/eclipse-mosquitto) - mqtt broker `[expose port 1883]`
+* [`docker pull python`](https://hub.docker.com/r/fastgenomics/sklearn/) - python environment
 You have to modify the `dockerfile` to install the python packages
 
 
