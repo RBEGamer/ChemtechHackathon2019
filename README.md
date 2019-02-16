@@ -202,6 +202,8 @@ but i think its not nessessary if the measurement interval is only every minute,
 ### ERROR REPORT PAGE
 ![Gopher image](/documentation/error_dashboard.png)
 
+## TEST STAND
+![Gopher image](/documentation/IMG_6493.JPG)
 
 
 ## ...
