@@ -65,9 +65,9 @@
 
 [(pdf) Hackathon Version](/02_pitch/00_ECC_hackathon_slides.pdf)
 
-[(online) Presentation Version](https://slides.com/beinggracie/deck-6-7#/) 
+[(online) on-site Version](https://slides.com/beinggracie/deck-6-7#/) 
 
-[(pdf) on site Presentaion Version](/02_pitch/01_ECC_on_site_slides.pdf)
+[(pdf) on-site Presentaion Version](/02_pitch/01_ECC_on_site_slides.pdf)
 
 
 ## Futher Problem Description
