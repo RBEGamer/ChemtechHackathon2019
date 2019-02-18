@@ -8,7 +8,7 @@
 
 
 # THE TEAM
-Our mind-blowing `extra cute crocodiles` - team
+Our `extra cute crocodiles` - team
 
 * [Marcel](https://github.com/RBEGamer)
 * [Weiling Xi](https://github.com/notagenius)
@@ -65,8 +65,18 @@ Our mind-blowing `extra cute crocodiles` - team
 * solder bp-free
 
 
-# SLIDES ? 
-[OH YES! HERE](https://slides.com/beinggracie/deck-6#/)
+# SLIDES 
+[(online) Hackathon Version] (https://slides.com/beinggracie/deck-6#/) (*note: public deck on third party platform, the link could be invalid later, for back up we export it a html version and a pdf version*)
+
+[(pdf) Hackathon Version] (https://github.com/RBEGamer/chemtech_hackathon_2019/blob/master/documentation/extra-cute%20crocodidiles_%20Pitch_Slides.pdf)
+
+[(html) Hackathon Version] ()
+
+[(online) Presentation Version] (https://slides.com/beinggracie/deck-6-7#/) (*note:  public deck on third party platform, the link could be invalid later, for back up we export it a html version and a pdf version*)
+
+[(pdf) on site Presentaion Version] ()
+
+[(html) Hackathon Version] ()
 
 
 # FURTHER PROBLEM DESCRIPTION
@@ -99,11 +109,7 @@ The topics used in this Project are:
 
 
 The result from the classifier contains the type of error, time and the location on the machine:
-`Topic:chemtechhack1234 Payload:{'error':[2,3,4],'location':'right','time':'14:39'}`
-
-
-
-
+`Topic:chemtechhack1234 Payload:{'error':[2,3,4],'location':'right','time':'14:39'}
 
 
 
