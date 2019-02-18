@@ -67,11 +67,16 @@ Our `extra cute crocodiles` - team
 
 # SLIDES 
 [(online) Hackathon Version] (https://slides.com/beinggracie/deck-6#/) (*note: public deck on third party platform, the link could be invalid later, for back up we export it a html version and a pdf version*)
+
 [(pdf) Hackathon Version] (https://github.com/RBEGamer/chemtech_hackathon_2019/blob/master/documentation/extra-cute%20crocodidiles_%20Pitch_Slides.pdf)
+
 [(html) Hackathon Version] ()
+
 [(online) Presentation Version] (https://slides.com/beinggracie/deck-6-7#/) (*note:  public deck on third party platform, the link could be invalid later, for back up we export it a html version and a pdf version*)
-[(pdf) on site Presentaion Version]
-[(html) Hackathon Version]
+
+[(pdf) on site Presentaion Version] ()
+
+[(html) Hackathon Version] ()
 
 
 # FURTHER PROBLEM DESCRIPTION
