@@ -13,7 +13,17 @@
 * Vasil
 * Paul
 
-## USED SOFTWARE
+## Machine Learning Setting Up
+
+#### Pre-processing
+
+#### Algorithm
+
+#### Detection with Pre-trained models
+
+#### Training on your own
+
+## SOFTWARE
 
 ### AI Service
 * python2.7, python3.6
@@ -38,7 +48,7 @@
 * Alexa Skill Kit
 * Amazon Lambda Functions (Python)
 
-## Used Hardware
+## Hardware
 
 ### Self-speaking alexa for voice notification
 * RPI 3 (sd, powersupply, ethernet)
@@ -75,11 +85,6 @@
 
 
 ## Explaination Classifier
-
-### SVM - SupportVectorMachine
-
-
-### RNN - RecurrentNeuralNetwork
 
 
 ## Explanation Backend
