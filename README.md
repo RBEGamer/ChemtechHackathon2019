@@ -62,12 +62,21 @@
 * [WS2813 12 LED Ring](https://www.seeedstudio.com/WS2813-Digital-RGB-LED-Ring-p-2871.html)
 * 10k resistor
 
+
+### DATA GENERATION TEST STAND
+* server fan 12V
+* round pezo disc 20mm
+* RPI 3b+
+* STM32 Nucelo-F767ZI
+* 5v step down converter
+
 ### Tools
 * [soldering iron ts100](https://www.banggood.com/de/MINI-TS80-Digital-OLED-USB-Type-C-Programable-Soldering-Iron-Station-Solder-Tool-Built-in-STM32-Chip-p-1330060.html?gmcCountry=DE&currency=EUR&cur_warehouse=CN&createTmp=1&ID=554956&utm_source=googleshopping&utm_medium=cpc_union&utm_content=2zou&utm_campaign=ssc-de-de-all&gclid=Cj0KCQiAvqDiBRDAARIsADWh5TfJrIg0-jV-CLCHcV-Yc0rjw4NkFCJe-BkxnWlLEZpVYmOtDFpJ4CIaAuWqEALw_wcB)
 * hotglue
 * cables, 2,54mm header
 * 20x10cm@9mm wood
 * solder bp-free
+* DSO DSO1104 for validation of the generated sample data
 
 
 ## Pitch Slides 
