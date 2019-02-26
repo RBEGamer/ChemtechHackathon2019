@@ -171,6 +171,11 @@ but i think its not nessessary if the measurement interval is only every minute,
 
 ### Data, more Data
 
+Wit our build test stand, its possible to generate our own data.
+The the generated dataset can be found at `/01_src/03_signal_processing_reseacrch/DSO_DATA.zip`.
+The test stand is build of a simple FAN from a server rig. We used a peizo elements as sensor and a STM32F7 Development board can sample the sensor in different sample rates, from 1k-samples/s up to 12m-samples/s. The data will be collected from a raspberry pi 3+ via the spi interface (this takes 5seconds). The tranfered data will be processed by a python script that generates a fftp for visualisation and publish the analyed data by mqtt to our server, hosted on AWS
+
+
 ### Software
 
 
