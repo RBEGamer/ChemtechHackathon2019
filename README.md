@@ -1,3 +1,5 @@
+<img src="/logo.png" />
+
 ## ChemTechHackathon 2019 - A XERVON CHALLANGE
 
 <img src="/03_logo/00_logo_v1.png" data-canonical-src="/03_logo/00_logo_v1.png" width="150" height="150" />
